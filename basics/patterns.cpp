@@ -98,23 +98,250 @@ int main(){
     // 321
     // 321
     // 321
+    // int n;
+    // cin>>n;
+    // int i=1;
+    // while (i<=n)
+    // {
+    //     int j=1;
+    //     while (j<=n)
+    //     {
+    //         cout<<n-j+1;
+    //         j++;
+    //     }
+    //     cout<<"\n";
+    //     i++;
+        
+    // }
+
+    // 1 2 3
+    // 4 5 6
+    // 7 8 9
+    // int n;
+    // cin>>n;
+    // int i=1;
+    // int cnt=1;
+    // while (i<=n)
+    // {
+    //     int j=1;
+    //     while (j<=n)
+    //     {
+    //         cout<<cnt<<" ";
+    //         j++;
+    //         cnt++;
+    //     }
+    //     cout<<"\n";
+    //     i++;
+    // }
+
+    // *
+    // **
+    // ***
+    // int n;
+    // cin>>n;
+    // int i = 1;
+    // while (i<=n)
+    // {
+    //     int j = 1;
+    //     while (j<=i)
+    //     {
+    //         cout<<"*";
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    // }
+
+    // ***
+    // **
+    // *
+    // int n;
+    // cin>>n;
+    // int i = 1;
+    // while (i<=n)
+    // {
+    //     int j = 1;
+    //     while (j<=n-i+1)
+    //     {
+    //         cout<<"*";
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    // }
+
+    // 1
+    // 22
+    // 333
+    // 4444
+    // int n;
+    // cin>>n;
+    // int i = 1;
+    // while (i<=n)
+    // {
+    //     int j = 1;
+    //     while (j<=i)
+    //     {
+    //         cout<<i;
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    // }
+    
+    // 333
+    // 22
+    // 1
+    // int n;
+    // cin>>n;
+    // int i = 1;
+    // while (i<=n)
+    // {
+    //     int j = 1;
+    //     while (j<=n-i+1)
+    //     {
+    //         cout<<n-i+1;
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    // }
+
+    // 1
+    // 2 3
+    // 4 5 6
+    // 7 8 9 10
+    // int n;
+    // cin>>n;
+    // int i = 1;
+    // int cnt = 1;
+    // while (i<=n)
+    // {
+    //     int j = 1;
+    //     while (j<=i)
+    //     {
+    //         cout<<cnt<<" ";
+    //         j++;
+    //         cnt++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    // }
+
+    // 1
+    // 2 3
+    // 3 4 5  
+    // 4 5 6 7
+    // int n;
+    // cin>>n;
+    // int i = 1;
+    // while (i<=n)
+    // {
+    //     int j = 1;
+    //     int val = i;
+    //     while (j<=i)
+    //     {
+    //         cout<<val<<" ";
+    //         j++;
+    //         val++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    // }
+
+    // 1
+    // 2 3
+    // 3 4 5  
+    // 4 5 6 7
+    // int n;
+    // cin>>n;
+    // int i = 1;
+    // while (i<=n)
+    // {
+    //     int j = 1;
+    //     while (j<=i)
+    //     {
+    //         cout<<i+j-1<<" ";
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    // }
+
+    // 1
+    // 21
+    // 321
+    // 4321
+    // int n;
+    // cin>>n;
+    // int i = 1;
+    // while (i<=n)
+    // {
+    //     int j = 1;
+    //     while (j<=i)
+    //     {
+    //         cout<<i-j+1<<" ";
+    //         j++;
+    //     }
+    //     cout<<endl;
+    //     i++;
+    // }
+    
+    // AAA
+    // BBB
+    // CCC
+    // int n;
+    // cin>>n;
+    // int i = 1;
+    // while (i<=n)
+    // {
+    //     int j = 1;
+    //     while (j<=n)
+    //     {
+    //         cout<<char('A'+i-1)<<" ";
+    //         j++;    
+    //     }
+    //     cout<<endl;
+    //     i++;
+    // }
+
+    // ABC
+    // ABC
+    // ABC
+    // int n;
+    // cin>>n;
+    // int i = 1;
+    // while (i<=n)
+    // {
+    //     int j = 1;
+    //     while (j<=n)
+    //     {
+    //         cout<<char('A'+j-1)<<" ";
+    //         j++;    
+    //     }
+    //     cout<<endl;
+    //     i++;
+    // }
+
+    // ABC
+    // DEF
+    // GHI
     int n;
     cin>>n;
-    int i=1;
+    int i = 1;
+    char start = 'A';
     while (i<=n)
     {
-        int j=1;
+        int j = 1;
         while (j<=n)
         {
-            cout<<n-j+1;
-            j++;
+            cout<<start<<" ";
+            start++;
+            j++;    
         }
-        cout<<"\n";
+        cout<<endl;
         i++;
-        
     }
-    
-
     
 
 }
