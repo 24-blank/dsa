@@ -1,5 +1,4 @@
-#include<iostream>
-#include<cmath>
+#include <bits/stdc++.h>
 using namespace std;
 int main(){
     // sum till n
@@ -44,18 +43,30 @@ int main(){
     // cout<<"Binary: "<<ans;
 
     //binary to decimal
-    int n;
-    cout<<"Enter binary number: ";
-    cin>>n;
-    int ans = 0;
-    int i = 0;
-    while (n!=0)
-    {
-        int digit = n % 10;
-        if(digit == 1) ans += pow(2,i); 
-        n /= 10;
-        i++;
-    }
-    cout<<"Decimal: "<<ans;
+    // int n;
+    // cout<<"Enter binary number: ";
+    // cin>>n;
+    // int ans = 0;
+    // int i = 0;
+    // while (n!=0)
+    // {
+    //     int digit = n % 10;
+    //     if(digit == 1) ans += pow(2,i); 
+    //     n /= 10;
+    //     i++;
+    // }
+    // cout<<"Decimal: "<<ans;
+
+    // reversing a number
+    // int n;
+    // cin>>n;
+    // int rev = 0;
+    // while (n!=0)
+    // {
+    //     int digit = n%10;
+    //     rev = (rev*10) + digit;
+    //     n/=10;
+    // }
+    // cout<<rev;
     
 }
